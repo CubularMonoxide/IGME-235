@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--I really don't know why the favicon isn't working.-->
+        <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dig Dug</title>
@@ -10,15 +30,52 @@
                 font-family: sans-serif;
                 border-bottom: 1px solid blue;
                 }
+            h2 {
+                color: maroon;
+            }
+            p {
+                margin-left: 50px;
+            }
             blockquote { 
                 background-color: lightgray;
                 padding: 1rem;
                 }
+            body {
+                background-color: #DCC7BE;
+            }
+            footer, header {
+                background-color: #CBB9A8;
+                border: 3px solid #0B4F6C;
+                margin: 0 auto;
+                width: 85vw;
+                padding: 1rem;
+            }
+            img.side {float:right; margin: 0 12px;}
+            p, li, blockquote {
+                font-family: 'Kumbh Sans', sans-serif;
+            }
+            h1, h2, h3 {
+                font-family: 'Roboto', sans-serif;
+                color: #0B4F6C;
+            }
+            a {
+                color: #145C9E;
+            }
+            a:visited {
+                color: #1F271B;
+            }
+            main {
+                background-color: #CBB9A8;
+                border: 3px solid #0B4F6C;
+                margin: 0 auto;
+                width: 80vw;
+                padding: 1rem;
+            }
         </style>
     </head>
     <body>
         <header>
-            <img src="images/logo.png" alt="Dig Dug Logo" width=250px>
+            <img src="images/dig-dug-logo.svg" alt="Dig Dug Logo" width=250px>
             <h1>Dig Dug</h1>
             <img src="images/dig-dug-burnt.png" alt="Screenshot of the game.">
             <p>
@@ -36,6 +93,7 @@
                 <li><strong>Released:</strong> Apr, 1982</li>
             </ul>
             <hr>
+            <img src="images/taizo_hori.png" alt="Dig Dug Character" class="side" height=100px>
             <h2>Description</h2>
             <p>
                 Dig Dug is a 1-2 player arcade game in which you have to use your shovel to dig your way through the earth. Stopping you from doing this are two monsters, called Pooka and Fygar, who will continually chase you around. The only weapon that you carry is an air pump, which you can use to inflate the monsters to the point where they explode. [...]
