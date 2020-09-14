@@ -8,24 +8,6 @@
     (these are not the real color names, just ones that i can remember)
 */
 
-#profile {
-    height: 45vh;
-}
-
-header, footer {
-    background-color: #2F4858;
-    border: 5px solid #336699;
-    padding: 1em;
-    margin: 0 5vw 1vw;
-}
-
-main {
-    background-color: #2F4858;
-    border: 5px solid #336699;
-    padding: 1em;
-    margin: 0 0 1vw;
-}
-
 img {
     border: 5px solid #86BBD8;
 }
@@ -42,6 +24,28 @@ p, li {
 h1, h2, h3, h4, h5, h6 {
     color: #9EE493;
     font-family: 'Kumbh Sans', sans-serif;
+}
+
+#profile {
+    height: 45vh;
+}
+
+#bio {
+    font-style: italic;
+}
+
+.border {
+    background-color: #2F4858;
+    border: 5px solid #336699;
+    padding: 1em;
+    margin: 0 5vw 1vw;
+}
+
+.center {
+    background-color: #2F4858;
+    border: 5px solid #336699;
+    padding: 1em;
+    margin: 0 0 1vw;
 }
 
 a, a:link {
