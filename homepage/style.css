@@ -1,0 +1,67 @@
+/*
+    Color palette:
+    - #336699, cobalt blue
+    - #86BBD8, sky blue
+    - #2F4858, dark blue iron
+    - #9EE493, sea foam green
+    - #DAF7DC, boring off-white
+    (these are not the real color names, just ones that i can remember)
+*/
+
+#profile {
+    height: 45vh;
+}
+
+header, footer {
+    background-color: #2F4858;
+    border: 5px solid #336699;
+    padding: 1em;
+    margin: 0 5vw 1vw;
+}
+
+main {
+    background-color: #2F4858;
+    border: 5px solid #336699;
+    padding: 1em;
+    margin: 0 0 1vw;
+}
+
+img {
+    border: 5px solid #86BBD8;
+}
+
+body {
+    background-color: #2F4858;
+}
+
+p, li {
+    color: #DAF7DC;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #9EE493;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+a, a:link {
+    color: #9EE493;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+a:visited {
+    color: #336699;
+}
+
+a:focus, a:hover {
+    border: 1px solid;
+    background: #336699;
+    color: #86BBD8;
+}
+
+a:active {
+    background: #86BBD8;
+    color: #336699;
+}
