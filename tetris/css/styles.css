@@ -1,0 +1,35 @@
+/* Do everything in this file */
+
+h2, h3, h4, h5, h6 {
+    border-bottom: 1px solid red;
+}
+
+h2 {
+    clear: both;
+}
+
+figure {
+    float: right;
+    width: 40vw;
+    margin-left: 3vw;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure > img {
+    width: 40vw;
+}
+
+div {
+    float: left;
+    width: 30vw;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    z-index: -5;
+    top: 0;
+    right: 0;
+}
