@@ -20,11 +20,22 @@ body {
     background-color: #35363D;
 }
 
-.infoContainer {
+img#valley {
+    width: 100%;
+    z-index: 0;
+}
+
+p {
+    font-size: 12px;
+}
+
+/* TREE STUFF */
+
+.treeContainer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 0 5% 0;
+    padding: 2% 5% 2%;
 }
 
 #treeInfo > * {
@@ -39,17 +50,54 @@ body {
     max-width: 33%;
 }
 
-.infoText {
+.treeText {
     background-color: #686868;
     max-width: 41vw;
 }
 
-.infoText > h2 {
+.treeText > h2 {
     padding: 1em 2em 0;
 }
 
-.infoText > p {
+.treeText > p {
     padding: 1em 2em 1em;
+}
+
+/* ITEM STUFF */
+
+.itemContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1% 5% 0;
+}
+
+.itemContainer > div {
+    width: 19.7vw;
+    height: 19.7vw;
+    margin: 1%;
+}
+
+.itemPortrait {
+    background-color: #324E44;
+    border: -1vw solid white;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.itemImage {
+    width: 50%;
+}
+
+.itemText {
+    background-color: #686868;
+    width: 41vw;
+    height: 41vw;
+}
+
+.itemText > p {
+    padding: 1.5em;
 }
 
 * {
