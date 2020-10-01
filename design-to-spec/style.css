@@ -20,13 +20,64 @@ body {
     background-color: #35363D;
 }
 
-img#valley {
+#topBar {
+    background-color: #686868;
+    padding: 10px;
+    height: 2rem;
+}
+
+#title {
+    position: absolute;
+    left: 8%;
+    transform: translate(0, -60%);
+}
+
+#name {
+    position: absolute;
+    right: 8%;
+    transform: translate(0, -60%);
+    text-align: right;
+}
+
+.axe {
+    position: absolute;
+    left: 31%;
+    max-height: 2.5rem;
+}
+
+#foot {
+    background-image: url("Assets/trees-cropped.jpg");
+    background-position: center;
+    background-size: 100%;
+    border-top: 10px solid white;
+    margin-top: 2vw;
+    height: 200px;
+}
+
+#valley, #trees {
     width: 100%;
     z-index: 0;
 }
 
 p {
-    font-size: 12px;
+    font-size: 0.878vw;
+}
+
+#coolText {
+    position: absolute;
+    left: 7%;
+    transform: translate(0%, 60%);
+}
+
+#copyright {
+    position: absolute;
+    right: 7%;
+    transform: translate(0%, 20%);
+    text-align: right;
+}
+
+h2 {
+    transform: translate(-25px, 0);
 }
 
 /* TREE STUFF */
@@ -80,14 +131,20 @@ p {
 
 .itemPortrait {
     background-color: #324E44;
-    border: -1vw solid white;
+    max-width: 17.7vw;
+    max-height: 17.7vw;
+    border: 1vw solid white;
     display: flex;
     flex-flow: column wrap;
-    align-content: center;
+    align-items: center;
 }
 
 .itemImage {
-    width: 50%;
+    max-width: 8.85vw;
+}
+
+h3 {
+    margin-top: 2em;
 }
 
 .itemText {
